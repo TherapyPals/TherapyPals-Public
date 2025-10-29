@@ -1,4 +1,4 @@
-# Therapals Open
+# TherapyPals Public Repo
 
 _Public hub for docs, schemas, examples, and brand assets for Therapals._
 
