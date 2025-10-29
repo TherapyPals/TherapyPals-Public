@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -X POST https://api.mock.therapals.app/notes/dap \
+  -H "Content-Type: application/json" \
+  -d '{"patientId":"p67890","sessionDate":"2025-10-29","data":"FAKE data","assessment":"FAKE assessment","plan":"FAKE plan"}'

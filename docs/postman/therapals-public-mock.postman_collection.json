@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Therapals Public Mock API",
+    "description": "Mock endpoints for Therapals public examples. No PHI.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "SOAP Note (Mock)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"patientId\":\"p67890\",\"sessionDate\":\"2025-10-29\",\"subjective\":\"FAKE\",\"objective\":\"FAKE\",\"assessment\":\"FAKE\",\"plan\":\"FAKE\"}"
+        },
+        "url": {
+          "raw": "https://api.mock.therapals.app/notes/soap",
+          "protocol": "https",
+          "host": ["api","mock","therapals","app"],
+          "path": ["notes","soap"]
+        }
+      }
+    }
+    // ...other endpoints for DAP, BIRP
+  ]
+}

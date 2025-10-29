@@ -1,0 +1,4 @@
+#!/bin/sh
+curl -X POST https://api.mock.therapals.app/notes/birp \
+  -H "Content-Type: application/json" \
+  -d '{"patientId":"p67890","sessionDate":"2025-10-29","behavior":"FAKE behavior","intervention":"FAKE intervention","response":"FAKE response","plan":"FAKE plan"}'

@@ -1,0 +1,25 @@
+{
+  "$id": "https://therapals.app/schemas/birp.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BIRP Note (FAKE)",
+  "type": "object",
+  "properties": {
+    "patientId": { "type": "string" },
+    "sessionDate": { "type": "string", "format": "date" },
+    "behavior": { "type": "string" },
+    "intervention": { "type": "string" },
+    "response": { "type": "string" },
+    "plan": { "type": "string" }
+  },
+  "required": ["patientId", "sessionDate", "behavior", "intervention", "response", "plan"],
+  "examples": [
+    {
+      "patientId": "p67890",
+      "sessionDate": "2025-10-29",
+      "behavior": "FAKE behavior",
+      "intervention": "FAKE intervention",
+      "response": "FAKE response",
+      "plan": "FAKE plan"
+    }
+  ]
+}

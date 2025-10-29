@@ -1,0 +1,23 @@
+{
+  "$id": "https://therapals.app/schemas/dap.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DAP Note (FAKE)",
+  "type": "object",
+  "properties": {
+    "patientId": { "type": "string" },
+    "sessionDate": { "type": "string", "format": "date" },
+    "data": { "type": "string" },
+    "assessment": { "type": "string" },
+    "plan": { "type": "string" }
+  },
+  "required": ["patientId", "sessionDate", "data", "assessment", "plan"],
+  "examples": [
+    {
+      "patientId": "p67890",
+      "sessionDate": "2025-10-29",
+      "data": "FAKE data",
+      "assessment": "FAKE assessment",
+      "plan": "FAKE plan"
+    }
+  ]
+}

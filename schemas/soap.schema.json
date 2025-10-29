@@ -1,0 +1,25 @@
+{
+  "$id": "https://therapals.app/schemas/soap.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SOAP Note (FAKE)",
+  "type": "object",
+  "properties": {
+    "patientId": { "type": "string" },
+    "sessionDate": { "type": "string", "format": "date" },
+    "subjective": { "type": "string" },
+    "objective": { "type": "string" },
+    "assessment": { "type": "string" },
+    "plan": { "type": "string" }
+  },
+  "required": ["patientId", "sessionDate", "subjective", "objective", "assessment", "plan"],
+  "examples": [
+    {
+      "patientId": "p67890",
+      "sessionDate": "2025-10-29",
+      "subjective": "FAKE subjective note",
+      "objective": "FAKE objective note",
+      "assessment": "FAKE assessment",
+      "plan": "FAKE plan"
+    }
+  ]
+}

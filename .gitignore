@@ -1,0 +1,13 @@
+# Node
+node_modules/
+.env
+.env.*
+
+# Docs
+.DS_Store
+*.log
+
+# Examples
+/examples/js-notes-client/.env
+/examples/js-notes-client/node_modules/
+/clients/javascript/node_modules/
